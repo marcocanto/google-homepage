@@ -1,4 +1,70 @@
-#h3{
-	font-size: xx-large	;
-	
+html,
+body {
+  background-color: #121212 !important;
+  color: #c6c2c2 !important;
+  height: 100;
+  padding: 0;
+  margin: 0;
+  min-width: 400px;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+a {
+  padding: 5px;
+  margin: 0 5px;
+}
+
+a:link {
+  color: #3ea6ff !important;
+  text-decoration: none;
+}
+
+.page-heading {
+  display: flex;
+  height: 60px;
+  flex-shrink: 0;
+  align-items: center;
+  padding: 6px;
+  box-sizing: border-box;
+
+  a:first-of-type {
+    padding-left: 15px;
+  }
+}
+
+.page-heading-right {
+  display: inline-block;
+  flex-grow: 1;
+}
+
+.right-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  a:last-of-type {
+    padding-right: 15px;
+  }
+}
+
+.icons {
+  float: right;
+  position: relative;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.apps {
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
 }
